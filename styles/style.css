@@ -5,6 +5,13 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
+.section-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
 /* Nav realted styles */
 header {
   background-image: url("../images/banner/banner1.png");
@@ -46,4 +53,14 @@ nav {
   border-radius: 5px;
   background: #f15b22;
   border: none;
+}
+.banner-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 87px;
+}
+.banner-details,
+.banner-photo {
+  max-width: 430px;
 }
